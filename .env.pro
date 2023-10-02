@@ -1,11 +1,11 @@
 # Your Medusa backend, should be updated to where you are hosting your server. Remember to update CORS settings for your server. See – https://docs.medusajs.com/usage/configurations#storefront-cors
-NEXT_PUBLIC_MEDUSA_BACKEND_URL=http://localhost:9000
+NEXT_PUBLIC_MEDUSA_BACKEND_URL=http://170.187.198.18:9000
 
 # Your store URL, should be updated to where you are hosting your storefront.
-NEXT_PUBLIC_BASE_URL=http://localhost:8000
+NEXT_PUBLIC_BASE_URL=http://170.187.198.18:8000
 
 # Posgres URL for your Medusa DB for the Product Module. See - https://docs.medusajs.com/modules/products/serverless-module
-POSTGRES_URL=postgres://postgres:postgres@localhost:5432/medusa
+POSTGRES_URL=postgres://postgres:postgres@170.187.198.18:5432/medusa-MrMZ
 
 # Your Stripe public key. See – https://docs.medusajs.com/add-plugins/stripe
 NEXT_PUBLIC_STRIPE_KEY=
