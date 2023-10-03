@@ -29,6 +29,10 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
     title: "Test payment",
     description: "Test payment using medusa-payment-manual",
   },
+  "my-payment": {
+    title: "VNPay Test",
+    description: "Dang trien khai, chua dung duoc",
+  },
 }
 
 const PaymentContainer: React.FC<PaymentContainerProps> = ({
