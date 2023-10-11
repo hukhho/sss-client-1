@@ -26,8 +26,8 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
     description: "Secure payment with PayPal",
   },
   manual: {
-    title: "Test payment",
-    description: "Test payment using medusa-payment-manual",
+    title: "COD",
+    description: "Ship COD",
   },
   "my-payment": {
     title: "VNPay Test",
