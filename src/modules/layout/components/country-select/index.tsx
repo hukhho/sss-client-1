@@ -35,7 +35,9 @@ const CountrySelect = () => {
   useEffect(() => {
     if (countryCode) {
       const option = options?.find((o) => o.country === countryCode)
+
       setCurrent(option)
+      console.log("countryCode: ", countryCode)
     }
   }, [countryCode, options])
 

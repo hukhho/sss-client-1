@@ -29,9 +29,9 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
     title: "COD",
     description: "Ship COD",
   },
-  "my-payment": {
+  "vn-pay": {
     title: "VNPay Test",
-    description: "Dang trien khai, chua dung duoc",
+    description: "VNPAY Test",
   },
 }
 
